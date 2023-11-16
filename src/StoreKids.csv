@@ -1,0 +1,31 @@
+,NOMBRE,DESCRIPCIÓN, PRECIO ,CATEGORÍA,STOCK
+1,Tablet,Toma apuntes y repasalos en cualquier momento,2500000,Escolar,13
+2,Escritorio,Con comodidad para el optimo rendimiento academico,100000,Escolar,200
+3,Fotocopiadoras,Saca copias y duplicados de tus mejores documentos,5000000,Escolar,50
+4,cuadernos,Toma tus mejores apúntes ,6500,Escolar,800
+5,Lapiz n° 2 (caja),Escribe y corrige como y cuando quieras ,20000,Escolar,4000
+6,Lapicero sencillo,Toma tus mejores notas  sin  temer a que se borre ,40000,Escolar,10000
+7,Lapicero Rectractil,Toma apuntes con precision y comodidad,40000,Escolar,10000
+8,Marcadores,Lo mejor para un cartel en exposición,60000,Escolar,8000
+9,Borradores,Retroocede y corrige sin remordimientos  ,30000,Escolar,150000
+10,Morral,Te acompaña para llevar lo que necesitas,95000,Escolar,200000
+11,Tour Cultural,Recorre museos y parques de tu ciudad,120000,Entretenimiento,51
+12,Consola Play station,Juega intensamente,2500000,Entretenimiento,60
+13,Consola xbox 360,Lo más sofisticado a tu alcance para ocio,2000000,Entretenimiento,70
+14,Consola xbox one,Alcanza tu maximo nivel ,1300000,Entretenimiento,80
+15,Consola xbox x,Alto nivel sofisticado,1500000,Entretenimiento,50
+16,Tour eje cafetero,Lo mejor por descrubrir,1300000,Entretenimiento,90
+17,Tour cozumel,Las  mejores vacaciones en mexico,1800000,Entretenimiento,50
+18,Tour puerto vallarta,Las mejores islas paradisiacas,2000000,Entretenimiento,40
+19,tour cancún,Solo es lo más sofisticado,2000000,Entretenimiento,35
+20,Bicicleta,Recorre caminos,1700000,Entretenimiento,90
+21,Snacks saludables,Cuídate aunque no dispongas de tiempo ,20000,Salud &Nutrición,24
+22,Cereal de frutos rojos,Nutre tu organismo,35000,Salud &Nutrición,200
+23,Batido verde,cuidate sin remordimiento,18500,Salud &Nutrición,250
+24,Aloe vera,Lo mejor para tu organismo,15600,Salud &Nutrición,300
+25,Batido Manzana verde,Para que tu organismo se regule,14800,Salud &Nutrición,300
+26,Cramberry,Optimo,13100,Salud &Nutrición,500
+27,Vinagre frutal,Regula organismo,12500,Salud &Nutrición,800
+28,Fibra verde,Organismo más sano,15000,Salud &Nutrición,800
+29,Fibra roja ,Organismo má  sano,15000,Salud &Nutrición,800
+30,vita positivo,Más saludable,25000,Salud &Nutrición,1000
