@@ -35,13 +35,11 @@ public class Main {
         //Obteniendo cada producto por id.
         Product product1 = ProductDAO.getProductByID(1);
         Product product2 = ProductDAO.getProductByID(2);
-        Product product26 = ProductDAO.getProductByID(26);
 
         //Creando un carrito y añadiendo productos
         Cart cart1 = new Cart();
         cart1.AddProduct(product1);
         cart1.AddProduct(product2);
-        cart1.AddProduct(product26);
 
         //Obteniendo todos los productos del carrito
         cart1.getSelectedProducts();
