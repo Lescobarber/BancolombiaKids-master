@@ -7,10 +7,11 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/bancolombiakidstienda?serverTimezone=UTC";
     private static final String JDBC_USER = "root";
-    private static final String JDBC_PASSWORD = "1234";
+    private static final String JDBC_PASSWORD = "";
 
     public static Connection getConnection() {
         Connection connection = null;
+
         try {
             connection = DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD);
         } catch (SQLException e) {

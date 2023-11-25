@@ -25,21 +25,21 @@ public class Main {
         */
 
         //Guardando productos. El método estático crea el objeto  para el tiempo de ejecución así  como lo almacena de manera persistente.
-        /*Product.createProduct("kit escolar",
-                "para el aumento del conocimiento de nuestros niños",
-                80000,
-                "escolar",
-                5, true);
-         */
+        Product.createProduct("pase planetario"," viaja por el espacio",25000,"recreacion",500, true);
 
         //Obteniendo cada producto por id.
         Product product1 = ProductDAO.getProductByID(1);
         Product product2 = ProductDAO.getProductByID(2);
+        Product product3 = ProductDAO.getProductByID(60);
+
+
 
         //Creando un carrito y añadiendo productos
         Cart cart1 = new Cart();
         cart1.AddProduct(product1);
         cart1.AddProduct(product2);
+        cart1.AddProduct(product3);
+
 
         //Obteniendo todos los productos del carrito
         cart1.getSelectedProducts();
@@ -47,7 +47,7 @@ public class Main {
         cart1.getSelectedProducts();
 
         //Creando un usuario
-        UserKid userkid1 = new UserKid("jestew","123456","Jeison Steward",12);
+        UserKid userkid1 = new UserKid("braes","123456","Brayan Esneider",18);
         UserKidDAO.insertUserKid(userkid1);
 
         //Login de usuario. Cualquier persona
@@ -55,8 +55,8 @@ public class Main {
 
         //Añadiendo hobbies al perfil del usuario
         ArrayList<String> list = new ArrayList<>();
-        list.add("Leer");
-        list.add("Comer");
+        list.add("Futbol");
+        list.add("echando verbo a las niñas");
         userkid1.setHobbies(list);
         //TODO: set avatar
         // set address etc...
