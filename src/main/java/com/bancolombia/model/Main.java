@@ -1,4 +1,4 @@
-package com.bancolombia.model;
+/*package com.bancolombia.model;
 
 
 import com.bancolombia.dao.ProductDAO;
@@ -11,18 +11,14 @@ public class Main {
     public static void main(String[] args) {
 
         //Creando productos. El constructor crea el objeto para el tiempo de ejecución.
-        /*
-        Product product1 = new Product("kit escolar",
+
+        Product productA = new Product("kit escolar",
                 "para el aumento del conocimiento de nuestros niños",
                 80000,
                 "escolar",
                 5);
-        Product product2 = new Product("lonchera saludable",
-                "nutre tu cuerpo y tu mente",
-                10000,
-                "alimentos",
-                20);
-        */
+
+
 
         //Guardando productos. El método estático crea el objeto  para el tiempo de ejecución así  como lo almacena de manera persistente.
         Product.createProduct("pase planetario"," viaja por el espacio",25000,"recreacion",500, true);
@@ -30,7 +26,7 @@ public class Main {
         //Obteniendo cada producto por id.
         Product product1 = ProductDAO.getProductByID(1);
         Product product2 = ProductDAO.getProductByID(2);
-        Product product3 = ProductDAO.getProductByID(60);
+        Product product3 = ProductDAO.getProductByID(62);
 
 
 
@@ -64,3 +60,4 @@ public class Main {
         userkid1.UpdateProfile(userkid1);
     }
 }
+*/
